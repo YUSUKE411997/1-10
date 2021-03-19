@@ -71,3 +71,19 @@ footer{
   width:100%;
   height:50px;
 }
+
+@media screen and (max-width: 768px){
+
+
+  main{
+    width:100%;
+    display:block;
+  }
+  .main-box{
+    width:90%;
+    margin:0 5% 20px 5%;
+  }
+  .main-box:last-child{
+    margin:0 5%;
+  }
+}
